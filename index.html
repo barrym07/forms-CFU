@@ -1,6 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <main>
+  <form>
+    <label>
+      Email:
+      <input type="email" id="email" name="email" placeholder="enter email">
+    </label>
+    <br>
+    <label> Password:
+      <input type="password" name="password" placeholder="password">
+    </label>
+    <br>
+    <label> Github Username:
+      <input type="text" id="username" name="username" placeholder="enter username">
+    </label>
+    <br>
+    <legend>Account Type</legend>
+    <input id="enterprise" type="radio" name="acct" value="Enterprise">
+    <label for="enterprise">Enterprise</label><br>
+
+    <input id="Pro" type="radio" name="acct" value="Pro">
+    <label for="Pro">Pro</label><br>
+
+    <input id="Free" type="radio" name="acct" value="Free">
+    <label for="Free">Free</label><br>
+
+    <input id="remember-me" type="checkbox" name="remember" value="Remember Me">
+    <label for="remember">Remember Me</label><br>
+
+
+    <input type="button" value="submit">
+
+  </form>
 
 </main>
 
